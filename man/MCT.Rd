@@ -5,8 +5,14 @@
 \title{Multiplication-combination tests for paired data with missing values in
 both arms}
 \usage{
-MCT(x, y, hypothesis = c("h0m", "h0p"), alternative = c("two.sided",
-  "less", "greater"), nperm = 10000, alpha = 0.05)
+MCT(
+  x,
+  y,
+  hypothesis = c("h0m", "h0p"),
+  alternative = c("two.sided", "less", "greater"),
+  nperm = 10000,
+  alpha = 0.05
+)
 }
 \arguments{
 \item{x}{a (non-empty) numeric vector of data values

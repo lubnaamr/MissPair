@@ -32,7 +32,7 @@ A \code{PBT} object containing the following components:
 }
 \description{
 The PBT function calculates the asymptotic model based bootstrap version
- of three different quadratic forms for testing H0m:{mu1=mu2};
+ of three different quadratic forms for testing H0m: {mu1 = mu2};
  the Wald-type statistic, the ANOVA-type
  statistic, and the MATS-type statistic for paired data with
  missingness in a single arm.

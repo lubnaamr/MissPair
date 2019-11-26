@@ -4,7 +4,7 @@ Title: Tests for Matched Pairs Designs with Missing Values
 Version: 0.1.0
 Author: Lubna Amro, Frank Konietschke, Markus Pauly
 Maintainer: Lubna Amro <lubna.amro@tu-dortmund.de>
-Depends: R (>= 3.6.1)
+Depends: R (>= 3.6.0)
 Description: Implemented are tests for matched pairs with missing values;
     the weighted permutation test and the multiplication combination 
     tests for paired data with missingness in both arms and the 

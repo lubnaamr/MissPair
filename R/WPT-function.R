@@ -2,7 +2,7 @@
 #'
 #' The WPT function calculates the weighted studentized permutation test
 #' for testing H0m: {mu1 = mu2} for matched pairs with missingness in both arm.
-#' WPT test #' is a combination of the randomization version
+#' WPT test is a combination of the randomization version
 #' of the paired t-test (Konietschke and Pauly, 2014)
 #' and Janssen's permutation version for the Welch test
 #' (Janssen, 1997) for complate and incomplete data respectively.

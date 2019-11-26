@@ -4,8 +4,13 @@
 \alias{WPT}
 \title{A weighted permutation test for paired data with missing values in both arms}
 \usage{
-WPT(x, y, alternative = c("two.sided", "less", "greater"),
-  nperm = 10000, alpha = 0.05)
+WPT(
+  x,
+  y,
+  alternative = c("two.sided", "less", "greater"),
+  nperm = 10000,
+  alpha = 0.05
+)
 }
 \arguments{
 \item{x}{a (non-empty) numeric vector of data values
@@ -35,8 +40,8 @@ A \code{WPT} object containing the following components:
 }
 \description{
 The WPT function calculates the weighted studentized permutation test
-for testing H0m:{mu1=mu2} for matched pairs with missingness in both arm.
-WPT test #' is a combination of the randomization version
+for testing H0m: {mu1 = mu2} for matched pairs with missingness in both arm.
+WPT test is a combination of the randomization version
 of the paired t-test (Konietschke and Pauly, 2014)
 and Janssen's permutation version for the Welch test
 (Janssen, 1997) for complate and incomplete data respectively.
