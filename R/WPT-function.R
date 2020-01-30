@@ -107,9 +107,11 @@ WPT <- function(x,
         stop("not enough observations")
 
     #-----------------Compute the test statistics------------------#
-    Tp0 <- wptstat(xyp, xu, yu, nperm)$t.ml
 
-    P1Tml <- wptstat(xyp, xu, yu, nperm)$p1ml
+    WPTresult <- wptstat(xyp, xu, yu, nperm)
+
+    Tp0 <- WPTresult$t.ml
+    P1Tml <- WPTresult$p1ml
 
 
     switch(alternative, two.sided = {
